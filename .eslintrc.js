@@ -22,6 +22,15 @@ module.exports = {
             "error",
             "multi-line"
         ],
+        "no-console": [
+            "error",
+            {
+                "allow" : [
+                    "warn",
+                    "error"
+                ]
+            }
+        ],
         "space-before-function-paren": [
             "error",
             {
